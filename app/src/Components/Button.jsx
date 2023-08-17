@@ -2,6 +2,7 @@ import React from "react";
 import style from "../Styles/Button.module.css";
 
 
+
 function Button({ text, typeClick, handleClick }) {
     return (
         <div>

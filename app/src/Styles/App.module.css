@@ -1,0 +1,32 @@
+@keyframes changeBackground {
+    0% {
+        background-color: rgb(4, 4, 243);
+    }
+
+    50% {
+        background-color: rgb(122, 3, 138);
+    }
+
+    100% {
+        background-color: rgb(4, 176, 199);
+    }
+}
+
+body {
+    animation: changeBackground 5s ease-in-out 1s infinite alternate;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Handjet', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(6, 238, 64);
+    margin: 0;
+}

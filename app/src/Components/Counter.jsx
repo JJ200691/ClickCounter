@@ -1,10 +1,11 @@
 import React from "react";
+import style from "../Styles/Counter.module.css";
 
 
 
 function Counter({ counter }) {
     return (
-        <div>
+        <div className={style.counter}>
             {counter}
         </div>
     );
