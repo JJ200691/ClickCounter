@@ -20,16 +20,18 @@ function App() {
   return (
     <div className={style.container}>
       <h1 className={style.title}>WELCOME</h1>
-      <Counter 
-      counter={clicks} />
-      <Button
-        text="CLICK"
-        typeClick={true}
-        handleClick={addClick} />
-      <Button
-        text="RESTART"
-        typeClick={false}
-        handleClick={restartClick} />
+      <Counter
+        counter={clicks} />
+      <div className={style.buttonContainer}>
+        <Button
+          text="CLICK"
+          typeClick={true}
+          handleClick={addClick} />
+        <Button
+          text="RESTART"
+          typeClick={false}
+          handleClick={restartClick} />
+      </div>
     </div>
   );
 }

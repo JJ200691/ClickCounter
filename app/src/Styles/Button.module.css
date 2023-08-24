@@ -1,0 +1,27 @@
+.clickButton {
+    font-size: 30px;
+    background-color: #04fa25;
+    margin-right: 30px;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.clickButton:hover{
+    background-color: #01630e;
+    transition: 1s;
+}
+
+.restartButton {
+    font-size: 30px;
+    background-color: #fa0404;
+    margin-right: 30px;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.restartButton:hover{
+    background-color: #800101;
+    transition: 1s;
+}
